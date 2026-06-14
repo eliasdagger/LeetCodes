@@ -1,18 +1,12 @@
-class Solution(object):
-    def removeDuplicates(self, nums):
-        i = 0 
-        j = len(nums)
-        while (i < j):
-            if nums[i] == nums[i - 1]:
-                nums.pop(i)
-                j -= 1
-            else:
-                i += 1
-            
 
-        
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        
+def removeDuplicates(nums):
+    i = 0
+    for j in range(1, len(nums)):
+        print(f"i = {i}, j = {j}")
+        if nums[j] != nums[i]:
+            i += 1
+            nums[i] = nums[j]
+    return i + 1
+
+
+print(removeDuplicates([1,1,2,2,3,4,5,6,6,6]))
