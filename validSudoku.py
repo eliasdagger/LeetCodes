@@ -30,5 +30,3 @@ class Solution:
                         return False
                     visited.add(board[row][col])
         return True
-
-        
