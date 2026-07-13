@@ -1,6 +1,6 @@
 ## 🧩 Coding Profiles & Problem Solving
 
-I like solving problems, so I decided to devote myself to at least one LeetCode problem a day starting May 23rd, 2026. Currently, I am following the NeetCode 150 roadmap. Below is my progress:  
+I like solving problems, so I decided to devote myself to at least one LeetCode problem a day starting May 23rd, 2026.
 
 🔗 [LeetCode Profile](https://leetcode.com/u/eliedagher/)
 
